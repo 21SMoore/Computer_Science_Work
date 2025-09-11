@@ -1,0 +1,15 @@
+Question 5 - can't see the file on github
+========================================================================================================================
+
+
+Age Assignment.py
+
+On line 6: new_age = int(age + 1)
+
+Age is already an int as it was converted on line 5. 1 is an int because it's not in quotes.
+
+So, you could just write age + 1 with out casting the result to an int as it is already an int. 
+
+========================================================================================================================
+
+Questions 8 - 11 from the book on page 174 - can't see the files on github
