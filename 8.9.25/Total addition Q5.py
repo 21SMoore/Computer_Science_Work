@@ -4,10 +4,11 @@
 
 total = 0
 for i in range(5):
-    number = int(input('Enter a number: '))
+    number = float(input('Enter a number: '))
     add = input('Do you want to add that to the total?: ')
     if add == 'yes' or add == 'Yes':
         total = total + number
     else:
         continue
 print(total)
+
