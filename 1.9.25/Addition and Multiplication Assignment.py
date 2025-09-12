@@ -7,10 +7,11 @@ number_one = input('Enter your first number: ')
 number_two = input('Enter your second number: ')
 number_three = input('Enter your third number: ')
 
-number_one = int(number_one)
-number_two = int(number_two)
-number_three = int(number_three)
+number_one = float(number_one)
+number_two = float(number_two)
+number_three = float(number_three)
 
 answer_1 = (number_one + number_two)
 answer_2 = (answer_1 * number_three)
 print('The answer is:',answer_2)
+
