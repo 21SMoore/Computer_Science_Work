@@ -6,8 +6,9 @@ number_one = input('Enter a number: ')
 number_two = input('Enter a second number: ')
 
 
-number_one = int(number_one)
-number_two = int(number_two)
+number_one = float(number_one)
+number_two = float(number_two)
 
 total = (number_one + number_two)
 print(total)
+
