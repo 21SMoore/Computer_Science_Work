@@ -5,11 +5,12 @@
 number = float(input('Enter a number under 20: '))
 
 if (number<20):
-    print(f'{number} is under 20')
+    print('Thank You!')
 
 if (number>20):
     print(f'{number} is too high')
 
 if (number == 20):
     print(f'{number} is too high')
+
 
