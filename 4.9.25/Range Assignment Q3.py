@@ -4,12 +4,10 @@
 
 number = float(input('Enter a number between 10 and 20: '))
 
-if (number > 10) and (number < 20):
+if (number > 9) and (number < 21):
     print(f'{number} is in the range.')
 
-if(number> 20) or (number < 10):
-    print(f'{number} is not in the range.')
-    
 else:
-    print(f'{number} is in the range.')
+    print(f'{number} is not in the range.')
+
 
