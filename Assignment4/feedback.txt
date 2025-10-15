@@ -1,3 +1,9 @@
 Pleaes do this assignment
 
 Programming 4 - Additional for loop questions on teams
+
+
+15/10/2025
+
+Can you take a look at Q2 I could not get it to run
+
