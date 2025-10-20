@@ -18,4 +18,7 @@ if n % 2 != 0:
     print('First number is odd')
 
 elif n % 2 == 0:
+
     print('First number is even')
+
+#im still working on Q20
