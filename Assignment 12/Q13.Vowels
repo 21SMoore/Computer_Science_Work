@@ -1,0 +1,4 @@
+#Assignment 11.
+#Author: Sam Moore
+#Description: Q13. Write a program that inputs a line of text and prints out the cout of vowels in it.
+word = input('Enter a word: ')

@@ -1,0 +1,9 @@
+#Assignment 11.
+#Author: Sam Moore
+#Description: Q11. Write a program that asks the user for a string (only single space between words) and returns an estimate of how many words are in the string.(Hint: Count numebr of spaces)
+string = input('Enter a series of words: ')
+total = 1
+for x in string:
+    if x == ' ':
+        total += 1
+print(f'There are {total} words in that string')

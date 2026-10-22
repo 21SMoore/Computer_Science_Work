@@ -1,0 +1,18 @@
+#Assignment 11.
+#Author: Sam Moore
+#Description: Q12. Write a program to input a formula with some brackets and checks, and prints out if the formula has the same number of opening and closing perentheses.
+#make sure the formula has equal amounts of '(' and ')'
+formula = input('Enter a formula: ')
+
+bracket1total = 0
+bracket2total = 0
+
+for x in formula:
+    if x == '(':
+        bracket1total += 1
+    elif x == ')':
+        bracket2total += 1
+if bracket1total == bracket2total:
+    print('The formula has the same amount of opening and closing brackets')
+else:
+    print('The formula does not have the same amount of opening and closing brackets')
